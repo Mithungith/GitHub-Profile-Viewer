@@ -119,10 +119,11 @@ input:focus {
     input {
        margin-top: 10%;
        font-size: 0.5rem;
-       padding: 0.7rem;
+       padding: 0.7rem 2rem;
        margin-bottom: 1rem;
        display: flex;
        justify-content: center;
+       text-align: center;
     }
 
     .user-info {
@@ -142,5 +143,12 @@ input:focus {
     .user-info ul li {
       font-size: 0.6rem;
       margin-left: 0.2rem;
+    }
+    .avatar {
+      margin-top: 15%;
+      border: 10px solid #2a2a72;
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
     }
 }
